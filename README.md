@@ -1,10 +1,12 @@
 
 <h1>Google Firebase + Raspberry Pi</h1>
 
-```html
 <h3>HTML Javascript</h3>
+
+
 <pre>
 <code>
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -85,18 +87,11 @@
   </script>
   </body>
 </html>
-
+```
 </code>
 </pre>
-```
 
-<h3>Código</h3>
-<pre>
-<code>
-
-
-
-
+<hr>
 <h3>Instalando lo necesario en Python</h3>
 <pre>
 <code>
