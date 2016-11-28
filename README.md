@@ -4,9 +4,10 @@
 <h3>HTML Javascript</h3>
 
 
+```html
 <pre>
 <code>
-```html
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -87,10 +88,10 @@
   </script>
   </body>
 </html>
-```
+
 </code>
 </pre>
-
+```
 <hr>
 <h3>Instalando lo necesario en Python</h3>
 <pre>
