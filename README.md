@@ -20,6 +20,8 @@ $ sudo pip install pyrebase
 <h3>Código</h3>
 <pre>
 <code>
+#Desarrollador por Jefferson Rivera
+#riverajeferàgmail.com
 import pyrebase
 import RPi.GPIO as GPIO
 from time import sleep
