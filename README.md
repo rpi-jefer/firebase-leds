@@ -2,6 +2,101 @@
 <h1>Google Firebase + Raspberry Pi</h1>
 
 
+<h3>HTML Javascript</h3>
+<pre>
+<code>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase Led</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+    <meta name="author" content="Jefferson Rivera">
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD2QEHR9JO2KcrtQvjypI6iFIznX_Dc_Wg",
+        authDomain: "testled-eb6bb.firebaseapp.com",
+        databaseURL: "https://testled-eb6bb.firebaseio.com",
+        storageBucket: "testled-eb6bb.appspot.com",
+        messagingSenderId: "909652007958"
+      };
+      firebase.initializeApp(config);
+    </script>
+    </head>
+  <body>
+<br>
+<br>
+<br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-success">
+          <div class="panel-heading">Firebase Led</div>
+          <div class="panel-body">
+             <div class="checkbox">
+               <label>
+                <input type="checkbox" id="checkLed1">LED 1
+              </label>
+              <div class="checkbox">
+               <label>
+                <input type="checkbox" id="checkLed2">LED 2
+              </label>
+             </div>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>
+  <script>
+	/*
+	  //Esqueleto de la BD
+	  var db = firebase.database().ref('home').set({
+	    led1:true,
+	    led2:true
+	  });
+	*/
+
+	var db = firebase.database().ref('home');
+	// último estado
+
+	db.on('value', function(data){
+	   $("#checkLed1").prop('checked', data.val().led1);
+	   $("#checkLed2").prop('checked', data.val().led2);
+	});
+
+
+	$("#checkLed1").click(function(){
+	  var estado = $(this).is(':checked');
+	  db.update({
+	    led1:estado
+	  });
+	});
+
+	$("#checkLed2").click(function(){
+	  var estado = $(this).is(':checked');
+	  db.update({
+	    led2:estado
+	  });
+	});
+
+  </script>
+  </body>
+</html>
+
+</code>
+</pre>
+
+
+<h3>Código</h3>
+<pre>
+<code>
+
+
+
+
 <h3>Instalando lo necesario en Python</h3>
 <pre>
 <code>
