@@ -168,7 +168,7 @@ GPIO.cleanup()
 <div align="center">
 <img src="test.png" width="50%">
 <br>
-<a href="https://testled-eb6bb.firebaseapp.com/">https://testled-eb6bb.firebaseapp.com/</a>
+<a href="https://testled-eb6bb.firebaseapp.com/" target="_blank">https://testled-eb6bb.firebaseapp.com/</a>
 </div>
 
 
