@@ -1,6 +1,9 @@
 
 <h1>Google Firebase + Raspberry Pi</h1>
 
+<img src="rpi_fire.jpg" width="50%">
+
+
 <h2>Parte 1: </h2> https://www.youtube.com/watch?v=Dbi7IgLoC1s&t=988s
 
 
