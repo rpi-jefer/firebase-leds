@@ -157,3 +157,13 @@ GPIO.cleanup()
 
 </code>
 </pre>
+
+<h3>Plano</h3>
+
+
+<div align="center">
+
+<img src="plano.jpg" width="50%">
+</div>
+
+
