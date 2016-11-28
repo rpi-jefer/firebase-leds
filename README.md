@@ -117,7 +117,7 @@ $ sudo pip install pyrebase
 </pre>
 
 
-<h3>Código</h3>
+<h3>Código Python</h3>
 <pre>
 <code>
 #Desarrollador por Jefferson Rivera
