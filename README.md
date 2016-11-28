@@ -158,6 +158,18 @@ GPIO.cleanup()
 </code>
 </pre>
 
+<h3>Versión de Raspbian usada</h3>
+<pre>
+<code>
+RASPBIAN JESSIE WITH PIXEL
+Version:September 2016
+Release date:2016-09-23
+Kernel version:4.4
+</code>
+</pre>
+
+
+
 <h3>Plano</h3>
 <div align="center">
 <img src="plano.jpg" width="50%">
