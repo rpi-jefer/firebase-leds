@@ -1,7 +1,7 @@
 
 <h1>Google Firebase + Raspberry Pi</h1>
 
-
+```html
 <h3>HTML Javascript</h3>
 <pre>
 <code>
@@ -88,7 +88,7 @@
 
 </code>
 </pre>
-
+```
 
 <h3>Código</h3>
 <pre>
